@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Mini Daily Planner</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2 id="date"></h2>
+
+    <div class="task-section">
+      <h4>📝 Today's Tasks</h4>
+      <ul id="taskList"></ul>
+      <div class="input-group">
+        <input type="text" id="newTask" placeholder="Add new task..." />
+        <button id="addTask">+</button>
+      </div>
+    </div>
+
+    <div class="pomodoro">
+      <h4>🍅 Pomodoro Timer</h4>
+      <div id="timer">25:00</div>
+      <button id="startTimer">Start</button>
+      <button id="resetTimer">Reset</button>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

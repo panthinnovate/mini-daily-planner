@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Mini Daily Planner",
+  "version": "1.1",
+  "description": "Manage tasks, use Pomodoro, and get daily reminders.",
+  "permissions": ["storage", "notifications"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "128": "icon.png"
+  }
+}
